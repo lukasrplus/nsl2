@@ -1,0 +1,17 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+
+@import "bootstrap";
+
+
+body {
+    background-image: url('https://s3-us-west-2.amazonaws.com/academicgolfseries/bg01.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
