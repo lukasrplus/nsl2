@@ -10,8 +10,18 @@ $navbar-default-color: $light-orange;
 
 
 body {
-    background-image: url('https://s3-us-west-2.amazonaws.com/academicgolfseries/bg01.jpg');
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nordspitz/bg5.png');
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.row {
+
+  &.section {
+    margin-top: 800px;
+    height: 500px;
+    background-color: #FEFDF9;
+  }
+
 }
